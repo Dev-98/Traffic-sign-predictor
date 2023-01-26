@@ -1,0 +1,4 @@
+keras==2.8.0
+numpy==1.21.6
+pandas==1.4.3
+streamlit==1.13.0
