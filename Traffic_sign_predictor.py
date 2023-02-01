@@ -4,8 +4,8 @@ import streamlit as st
 from PIL import Image
 from keras.models import load_model
 
-model = load_model('C:/Users/Dev Gupta/Desktop/Jupyter/Projects (ML-DS)/Traffic Sign pred/traffic_classifier.h5')
-labels = read_csv('C:/Users/Dev Gupta/Desktop/Jupyter/Projects (ML-DS)/Traffic Sign pred/labels.csv')
+model = load_model('traffic_classifier.h5')
+labels = read_csv('labels.csv')
 
 st.title('Traffic Sign Predictor')
 # st.text(labels)
